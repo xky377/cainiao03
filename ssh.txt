@@ -1,0 +1,8 @@
+ssh-keygen -t rsa
+cd /root/.ssh
+id_rsa.pub  -> github(ssh and key)
+git init 
+git add .
+git commit -m "miaoshu"
+git remote add origin "ssh url"
+git push origin master
